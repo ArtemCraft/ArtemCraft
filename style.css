@@ -1,0 +1,121 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #1a1a1a;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #111;
+  border-bottom: 3px solid #4caf50;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo { font-size: 24px; font-weight: bold; color: #4caf50; }
+
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  margin-left: 25px;
+  transition: color 0.3s;
+}
+
+nav a:hover { color: #4caf50; }
+
+.btn-nav {
+  background: #4caf50;
+  padding: 8px 18px;
+  border-radius: 5px;
+  color: #111 !important;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d4a2d 100%);
+}
+
+.hero h1 {
+  font-size: 64px;
+  color: #4caf50;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.hero p { font-size: 20px; margin-bottom: 15px; }
+
+.online { color: #8bc34a; }
+
+.btn-download {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 18px 45px;
+  background: #4caf50;
+  color: #111;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-download:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #4caf50;
+}
+
+section { padding: 60px 40px; max-width: 1200px; margin: 0 auto; }
+
+section h2 {
+  font-size: 36px;
+  color: #4caf50;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#about ul { list-style: none; text-align: center; font-size: 18px; }
+#about ul li { margin: 10px 0; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.gallery img { width: 100%; border-radius: 8px; border: 2px solid #4caf50; }
+
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.review {
+  background: #222;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50;
+}
+
+.review b { color: #8bc34a; }
+
+.download-section { text-align: center; background: #222; border-radius: 12px; margin-bottom: 40px; }
+
+.small { font-size: 14px; color: #888; margin-top: 10px; }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: #666;
+  border-top: 3px solid #4caf50;
+}
