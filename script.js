@@ -1,5 +1,5 @@
 // Фейковый счётчик онлайна
-let count = 1247;
+let count = 574;
 setInterval(() => {
   count += Math.floor(Math.random() * 7) - 3;
   if (count < 1200) count = 1200;
